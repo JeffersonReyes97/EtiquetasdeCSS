@@ -1,0 +1,44 @@
+<!--La propiedad border especifica el espesor, color y estilo de los bordes.
+Es la forma abreviada para definir los bordes y puede comprender en ella todas
+las propiedades de los bordes juntas.
+
+Sintaxis
+selector {border: valor-1 valor-2 valor-n}
+
+Nota: debemos dejar un espacio en blanco entre los valores
+
+Los posibles valores para definir los espesores de los bordes
+thin | medium | thick | tamaño (px, pc, pt, mm, cm, in) | nombre del color(inglés) |
+ #xxxxxx | transparent | none | hidden | dotted | dashed | solid | double | groove |
+ ridge | inset | outset
+
+Ejemplo
+Vamos a decorar los bordes de una tabla.
+
+Nota: para poder visualizar el borde debemos usar valores de la propiedad border-style
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+table{
+	border: blue double medium;
+}
+td{
+	border: green dotted medium;
+}
+</style>
+</head>
+<body>
+<table>
+<tr>
+<td>Esta tabla</td>
+<td>tiene los bordes</td>
+</tr>
+<tr>
+<td>decorados con</td>
+<td>diferentes propiedades</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!--La propiedad background-position nos permite ubicar una imagen en un lugar específico dentro del fondo.
+
+Sintaxis
+<head>
+<style="type:text/css">
+etiqueta HTML {
+background-image: url('/nombre-de-la-imagen');
+background-position: valor;
+}
+</style>
+</head>
+
+Los posibles valores para la ubicación exacta de la imagen en el fondo
+% | coordinadas x-y | left | center | right | top | bottom
+
+Ejemplo
+Vamos a usar una imagen y la ubicaremos en alguna coordenada dentro del fondo.-->
+<head>
+<style type="text/css">
+body {
+background-image: url("gato.jpg");
+background-repeat: no-repeat;
+background-position: 60px 100px;
+}
+</style>
+</head>
+
+<body>
+<p>Imagen en las coordenadas x=60px y=100px</p>
+</body>
