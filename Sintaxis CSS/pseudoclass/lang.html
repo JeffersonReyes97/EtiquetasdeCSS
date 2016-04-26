@@ -1,0 +1,25 @@
+<!--La pseudo-clase :lang nos permite combinar el idioma de los elementos del documento con el idioma del usuario
+
+Sintaxis
+<head>
+<style="type:text/css">
+selector:lang(idioma) {propiedadvalor}
+O
+:lang(idioma) {propiedadvalor}
+</style>
+</head>
+
+Nota: el idioma es obligatorio.
+
+Ejemplo
+Vamos a comparar las comillas entre dos idiomas.-->
+<head>
+<style type="text/css">
+:lang(es) {quotes:'"' '"'}
+:lang(fr) {quotes:"<<" ">>"}
+</style>
+</head>
+<body>
+<p>...<q lang="es">Comillas en español</q>...</p>
+<p>...<q lang="fr">Comillas en francés</q>...</p>
+</body>

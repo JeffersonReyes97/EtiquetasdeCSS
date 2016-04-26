@@ -1,0 +1,34 @@
+<!--A veces necesitamos cambiar la forma de visualizar o interpretar algún objeto
+en respuesta a una acción del usuario. La pseudo-clase :hover se aplica generalmente
+cuando el cursor se desplaza por encima de un enlace.
+La pseudo-clase :active se aplica cuando el elemento está siendo activado por el usuario,
+como por ejemplo cuando el usuario presiona un boton.
+La pseudo-clase :focus se aplica cuando el elemento tiene el foco
+
+Sintaxis
+<head>
+<style="type:text/css">
+a:link { color: red }
+a:visited { color: blue }
+selector:hover {propiedadvalor}
+selector:active {propiedadvalor}
+selector:focus {propiedadvalor}
+</style>
+</head>
+
+Nota: la pseudo-clase :hover debe ser ubicada posteriormente a :link y :visited y anteriormente a :active.
+
+Ejemplo
+Vamos a aplicar un comportamiento dinámico a un enlace.-->
+<head>
+<style type="text/css">
+a:link { color: red }
+a:visited { color: green}
+a:hover {color:blue}
+a:active {color:black}
+a:focus {background-color:yellow}
+</style>
+</head>
+<body>
+<a href="/fin.html">Enlace dinámico</a>
+</body>

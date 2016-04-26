@@ -1,0 +1,42 @@
+<!--La propiedad border-collapse nos permite seleccionar la apariencia de los
+bordes de cada celda de la tabla. Existen 2 modelos diferentes de bordes: 
+separados y continuos.
+
+Sintaxis
+selector {border-collapse: valor}
+
+Los posibles valores para los diferentes modelos de bordes
+collapse | separate | inherit
+
+Ejemplo
+Vamos a comparar los dos modelos de bordes.-->
+<head>
+<style type="text/css">
+table.plegado{border-collapse: collapse}
+table.separado{border-collapse: separate}
+</style>
+</head>
+<body>
+<table class="plegado" style="border:solid 1px">
+<caption>Tabla con los bordes plegados</caption>
+<tr>
+<th>Nombre</th>
+<th>Edad</th>
+</tr>
+<tr>
+<td>Luis</td>
+<td>23</td>
+</tr>
+</table>
+<table class="separado" style="border:solid 1px">
+<caption>Tabla con los bordes separados</caption>
+<tr>
+<th>Nombre</th>
+<th>Edad</th>
+</tr>
+<tr>
+<td>Roberto</td>
+<td>19</td>
+</tr>
+</table>
+</body>

@@ -1,0 +1,25 @@
+<!--La pseudo-clase :first-child combina un elemento que es el primer elemento hijo con otro elemento
+
+Sintaxis
+Esta regla nos indica que el selector es el primer hijo del elemento padre y
+que cumplirá con la propiedad incluida entre llaves
+
+<head>
+<style="type:text/css">
+elemento padre > selector:first-child {propiedad: valor}
+</style>
+</head>
+
+Ejemplo
+Vamos a ver como actúa first-child.-->
+<head>
+<style type="text/css">
+div > p:first-child {color: red}
+</style>
+</head>
+<body>
+<div>
+<p>La propiedad definida anteriormente se cumplirá solamente para el primer elemento p que desciende del elemento div</p>
+<p>En este caso, la propiedad no tendrá efecto por no ser el primer elemento p del elemento div sino el segundo</p>
+</div>
+</body>

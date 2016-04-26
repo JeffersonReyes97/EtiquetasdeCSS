@@ -1,0 +1,34 @@
+<!--La propiedad caption-side nos permite ubicar el título de la tabla por encima
+o por debajo de la misma. La alineación horizontal del mismo se puede establecer
+con la propiedad text-align.
+
+Sintaxis
+selector {caption-side: valor}
+
+Los posibles valores para definir la ubicación del título
+top | bottom | inherit
+
+Ejemplo
+Vamos a ubicar el título de la tabla por debajo de la misma.-->
+<head>
+<style type="text/css">
+caption{caption-side: bottom}
+</style>
+</head>
+<body>
+<table border="1">
+<caption>Precio de los lácteos</caption>
+<tr>
+<th>Producto</th>
+<th>Precio</th>
+</tr>
+<tr>
+<td>Manteca</td>
+<td>4.00</td>
+</tr>
+<tr>
+<td>Leche</td>
+<td>1.50</td>
+</tr>
+</table>
+</body>

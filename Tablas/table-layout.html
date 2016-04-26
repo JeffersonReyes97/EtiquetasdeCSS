@@ -1,0 +1,36 @@
+<!--La propiedad table-layout se usa para diseñar las filas, columnas o celdas de una tabla.
+Entre las posibilidades de diseño podemos definir si las mismas van a tener el tamaño fijo
+que estipulemos (fixed) o se adecuarán al contenido sin importar la medida que hayamos establecido (auto).
+
+Sintaxis
+selector {table-layout: valor}
+
+Los posibles valores para definir el formato de las tablas
+auto | fixed | inherit
+
+Ejemplo
+Vamos a comparar las 2 propiedades de una tabla.-->
+<head>
+<style type="text/css">
+table.auto{table-layout: auto}
+table.fija{table-layout: fixed}
+</style>
+</head>
+<body>
+<table class="auto" style="border: solid; width: 100%">
+<caption>Tabla con formato automático</caption>
+<tr>
+<td width="10%">111111111111111111111111111111</td>
+<td width="40%">222222222222</td>
+<td width="50%">33333</td>
+</tr>
+</table>
+<table class="fija" style="border: solid; width: 100%">
+<caption>Tabla con formato fijo</caption>
+<tr>
+<td width="10%">111111111111111111111111111111</td>
+<td width="40%">222222222222</td>
+<td width="50%">33333</td>
+</tr>
+</table>
+</body>

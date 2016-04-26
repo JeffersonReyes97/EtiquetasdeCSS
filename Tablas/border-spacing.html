@@ -1,0 +1,33 @@
+<!--La propiedad border-spacing especifica la separación entre celdas adyacentes.
+Si especificamos un solo valor, este actúa sobre toda la tabla. Si especificamos
+2 valores el primero define la separación horizontal y el segundo la vertical.
+
+Sintaxis
+selector {border-spacing: valor}
+
+Los posibles valores para definir la separación entre celdas
+distancia(horizontal) distancia(vertical) | inherit
+
+Ejemplo
+Vamos a definir la separación de las celdas.-->
+<head>
+<style type="text/css">
+table{border-spacing: 10px 20px; border-collapse: separate}
+</style>
+</head>
+<body>
+<table style="border: solid 1px">
+<tr>
+<th>Marca del automobil</th>
+<th>Modelo</th>
+</tr>
+<tr>
+<td>Ford</td>
+<td>Mustang</td>
+</tr>
+<tr>
+<td>Toyota</td>
+<td>Corolla</td>
+</tr>
+</table>
+</body>
