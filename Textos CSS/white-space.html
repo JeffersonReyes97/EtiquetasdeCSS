@@ -1,0 +1,28 @@
+<!--La propiedad white-space se utiliza para manipular el comportamiento de los espacios en blanco dentro de cada elemento.
+
+Sintaxis
+<head>
+<style="type:text/css">
+selector {white-space: valor}
+</style>
+</head>
+
+Los posibles valores para esta propiedad
+normal | pre | nowrap | pre-wrap | pre-line
+
+Ejemplo
+Vamos ver el comportamiento de los espacios en blanco dentro de un texto.-->
+<head>
+<style type="text/css">
+p.pre{white-space:pre-wrap}
+p.normal{white-space:normal}
+</style>
+</head>
+<body>
+<p class="pre">Dejo varios espacios en
+blanco entre palabra y palabra.</p>
+<p class="normal">Aca     también    dejo     varios
+    espacios     en    blanco     entre    palabra     y
+    palabra     pero    los     comprime
+a    uno     solo.</p>
+</body>

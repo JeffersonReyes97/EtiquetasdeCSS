@@ -1,0 +1,25 @@
+<!--La propiedad text-decoration se utiliza para subrayar, tachar, remarcar con una línea superior o parpadear un texto.
+
+Sintaxis
+<head>
+<style="type:text/css">
+selector {text-decoration: valor}
+</style>
+</head>
+
+Los posibles valores para decorar los textos
+none | underline | overline | line-through | blink
+
+Ejemplo
+Definimos un texto parpadeante y un enlace sin subrayar.-->
+<head>
+<style type="text/css">
+p.parpadeo{text-decoratio:blink}
+a.sin_linea{text-decoration:none}
+</style>
+</head>
+<body>
+<p class="parpadeo">Texto parpadeando</p>
+<a class="sin_linea" href="/www.virtualnauta.com">
+Ir a la home de Virtualnauta</a>
+</body>
